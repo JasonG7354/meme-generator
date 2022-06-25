@@ -1,13 +1,190 @@
 body {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
 }
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 150%;
+  /* Created with https://www.css-gradient.com */
+  background: #3794A3;
+  background: -webkit-linear-gradient(top left, #3794A3, #465BF7);
+  background: -moz-linear-gradient(top left, #3794A3, #465BF7);
+  background: linear-gradient(to bottom right, #3794A3, #465BF7);
+  color: white;
+}
+.navbar--title{
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+  
+}
+.navbar--icon{
+  font-size: larger;
+}
+.title {
+  margin-left: 5%;
+}
+.navbar--detail{
+  margin-right: 5%;
+}
+.forms{
+  text-align: center;
+  margin-top: 1%;
+}
+.form1{
+  margin-right: 3%;
+  width: 40%;
+  padding: 2%;
+  font-size: 120%;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+.form2{
+  width: 40%;
+  font-size: 120%;
+  padding: 2%;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+.button-box{
+  margin-top: 5%;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.darkmode{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 1%;
+  padding-left: 1%;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+  margin-left: 75%;
+  border: none;
+}
+.darkmode:hover{
+  background: #3794A3;
+  background: -webkit-linear-gradient(top left, #3794A3, #465BF7);
+  background: -moz-linear-gradient(top left, #3794A3, #465BF7);
+  background: linear-gradient(to bottom right, #3794A3, #465BF7);
+}
+.button{
+  width: 88%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 150%;
+  align-items: center;
+  border-radius: 5px;
+  background: #3794A3;
+  background: -webkit-linear-gradient(top left, #3794A3, #465BF7);
+  background: -moz-linear-gradient(top left, #3794A3, #465BF7);
+  background: linear-gradient(to bottom right, #3794A3, #465BF7);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.button--icon{
+  margin-left: 2%;
+}
+.img-box{
+  width: 90%;
+  position: relative;
+  margin-left: 5%;
+  text-align: center;
+  margin-top: 2.5%;
+  
+}
+.meme-img{
+  padding: 0%;
+  margin-left: 5%;
+  text-align: center;
+  margin-top: 5%;
+  object-fit: contain;
+  width:90%;
+}
+.topText{
+  position: absolute;
+  top: 10%;
+  left: 12.5%;
+  font-size: 300%;
+  color: white;
+  font-weight: bold;
+  width:75%;
+  text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+.bottomText{
+  position: absolute;
+  bottom: 10%;
+  left: 12.5%;
+  font-size: 300%;
+  color: white;
+  font-weight: bold;
+  width: 75%;
+  text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+a:link{
+  color: black;
+}
+a:visited{
+  color: black;
+}
+a:hover{
+  color: white;
+}
+footer{
+  width: 100%;
+  margin-top: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;;
+  text-align: center;
+  background: #3794A3;
+  background: -webkit-linear-gradient(top left, #3794A3, #465BF7);
+  background: -moz-linear-gradient(top left, #3794A3, #465BF7);
+  background: linear-gradient(to bottom right, #3794A3, #465BF7);
+
+}
+.footer-icon{
+  margin-right: 5%;
+}
+@media (max-width: 600px) {
+  .navbar{
+    display: inline-block;
+    text-align: center;
+  }
+  .title{
+    margin-left: 20%;
+    text-align: center;
+  }
+  .navbar--icon{
+    margin-left: 300%;
+  }
+
+  
 }
