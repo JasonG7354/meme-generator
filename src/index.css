@@ -25,6 +25,7 @@ body {
 }
 .navbar--icon{
   font-size: larger;
+  margin-right: 5%;
 }
 .title {
   margin-left: 5%;
@@ -187,4 +188,10 @@ footer{
   }
 
   
+}
+@media (max-width: 445px){
+  .navbar--icon{
+
+    margin-left: 10px;
+  }
 }
