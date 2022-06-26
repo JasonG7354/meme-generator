@@ -1,7 +1,7 @@
 {
   "name": "meme-generator",
   "version": "0.1.0",
-  "homepage": "https://github.com/JasonG7354/meme-generator",
+  "homepage": "http://JasonG7354.github.io/meme-generator",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
